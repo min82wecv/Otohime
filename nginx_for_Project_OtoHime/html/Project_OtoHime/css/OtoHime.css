@@ -1,0 +1,155 @@
+#main_body{
+    height: 400px;
+    width: 277px;
+}
+#playMusic {
+    font-size: 12px;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    background: none;
+    cursor: pointer;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    height: 26px;
+    border: 1px solid #0BD;
+    color: #0BD;
+    padding: 0 22px;
+}
+#playMusic {
+    color: #0BD;
+    padding: 0 22px;
+    margin-left: -1px;
+    float: left;
+}
+#playMusic:hover, #playMusic:active {
+    opacity: 0.7;
+}
+#musicName{
+    border: 1px solid rgb(0, 187, 221);
+    float: left;
+    height: 26px;
+    border-radius: 25px 0 0 25px;
+    padding-left: 10px;
+    padding-right: 3px;
+    color: #333;
+    background: #FFF;
+}
+#search_group{
+    margin-left: 9px;
+    height: 28px;
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+}
+.message {
+    opacity: 0;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    padding: 7px;
+    top: -80px;
+    left: -10px;
+    text-align: center;
+    border: 1px solid #0BD;
+    border-radius: 12px;
+    background-color: none;
+    box-shadow: 0 3px 15px 2px rgba(255,137,255,.4);
+    color: #0BD;
+    font-size: 13px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: absolute;
+    animation-delay: 5s;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+    opacity:0;
+    margin: 0px auto;
+    margin-left: 28px;
+}
+#APlayer{
+    /*防止播放列表数目变化影响看板娘位置*/
+    position: absolute;
+    /*防止播放列表数目变化影响看板娘位置*/
+    width: 100%;
+    margin: 3px auto;
+}
+#music_genius{
+    position:absolute;
+    z-index: 999;
+    margin-top: 320px;
+    float: left;
+}
+.music_controller{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    height: 33px;
+    border: 0px;
+    color: #0BD;
+}
+.music_controller:hover, .music_controller:active {
+    opacity: 0.7;
+}
+#play_controller{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#music_controller_group{
+    width: 100%;
+    text-align: center;
+    margin-left: -25px;
+    position: absolute;
+    display: none;
+}
+.left_icon{
+    margin-left: -25px;
+}
+.music_controller_right{
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    -ms-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    border: 0px;
+    color: #0BD;
+}
+.music_controller_right:hover, .music_controller_right:active {
+    opacity: 0.7;
+}
+#music_controller_right_group{
+    display: none;
+    float: right;margin-top: 50px;
+}
+#shut_down{
+    font-size: 17px;
+}
+#music_inlet{
+    font-size: 17px;
+}
+/*.removeMusic{
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 14px;
+    color: #999;
+}*/
+
