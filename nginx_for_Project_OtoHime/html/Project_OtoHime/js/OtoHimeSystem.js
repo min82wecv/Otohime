@@ -55,7 +55,8 @@ var musicGenius = {
 					},
 					dataType:'json',
 					type:'GET',
-					url:"http://localhost/getMusic/",
+					url:"http://localhost/getMusic/", //如果要别人也访问，要写成IP，不可以localhost
+									  //否则看板娘会加载不出，点歌也无效。
 					success:function (data) 
 					{
 						/*				提取
